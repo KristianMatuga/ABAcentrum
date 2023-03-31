@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="all,follow" />
+    <meta
+      name="keywords"
+      content="ABA, autizmus, terapia, behaviorálna, analýza, problémové"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Bayon&family=Cedarville+Cursive&family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            body: ["Alata", "sans-serif"],
+            sans: ["Bayon", "sans-serif"],
+            display: ["Cedarville Cursive", "cursive"],
+          },
+        },
+      };
+    </script>
+    <title>ABA Centrum - Domov</title>
+  </head>
+  <body class="font-body flex flex-col min-h-screen overflow-x-hidden">
+    <nav class="px-6 md:px-20 py-4">
+      <div class="container mx-auto flex justify-between">
+        <div class="h-20" data-logo>
+          <img
+            class="h-full w-auto object-contain"
+            src="./assets/corporate/logo.png"
+            alt="Aba Logo"
+          />
+        </div>
+        <div class="flex items-center" data-links-wrapper>
+          <div
+            data-burger
+            class="fixed right-6 z-10 w-12 h-12 rounded-full drop-shadow-md shadow-md hidden items-center justify-center p-3 cursor-pointer bg-white"
+          >
+            <img
+              class="w-full h-full object-contain"
+              src="./assets/particles/menu_icon.svg"
+              alt="Menu icon"
+            />
+          </div>
+          <div class="flex items-center gap-3 text-slate-800" data-links>
+            <div class="relative px-6 py-3">
+              <a href="#" class="text-white">Domov</a>
+              <div
+                class="absolute w-full h-full top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-1/2"
+              >
+                <img
+                  class="w-full h-full object-fill drop-shadow-[0_3px_5px_#00AD6260]"
+                  src="./assets/particles/rectangle.svg"
+                  alt="Navigation button bg"
+                />
+              </div>
+            </div>
+            <div class="relative px-6 py-3">
+              <a href="./o_aba.html" class="transition hover:text-[#00AD62]"
+                >O ABA</a
+              >
+            </div>
+            <div class="relative px-6 py-3">
+              <a
+                href="./aba_centrum.html"
+                class="transition hover:text-[#00AD62]"
+                >ABA centrum</a
+              >
+            </div>
+            <div class="relative px-6 py-3">
+              <a href="./dakujeme.html" class="transition hover:text-[#00AD62]"
+                >Ďakujeme</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flex-1 md:px-20 px-6 mt-20">
+      <div class="container mx-auto flex flex-col">
+        <div class="flex gap-10 justify-between flex-wrap">
+          <div class="flex-1 max-w-2xl basis-60">
+            <h1 class="font-sans text-6xl text-slate-800">Aba centrum</h1>
+            <span class="mt-4 inline-block max-w-md">
+              Každé dieťa je jedinečné a prichádza so svojou úrovňou zručností a
+              deficitov, každé má iné problémy a silné stránky.
+            </span>
+          </div>
+          <div class="flex-1 relative -z-10 max-w-2xl aspect-[5/3] basis-60">
+            <div
+              class="absolute z-30 -top-3 -left-3 border-white border-4 w-full h-full"
+            ></div>
+            <div class="absolute z-10 -top-5 -left-5 w-full h-full">
+              <img
+                class="w-full h-full object-contain scale-125"
+                src="./assets/particles/rectangle_bg.svg"
+                alt="BG"
+              />
+            </div>
+            <div
+              class="absolute z-0 top-5 -left-5 w-full h-full bg-emerald-100"
+            ></div>
+            <img
+              class="relative z-20 w-full h-full object-contain"
+              src="./assets/images/IMG_9986.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="flex mt-10">
+          <img
+            class="max-w-[200px] w-1/6 min-w-[120px] absolute left-0 -translate-y-1/2"
+            src="./assets/particles/line.svg"
+            alt="Stroke"
+          />
+          <a
+            href="./o_aba.html"
+            class="inline-block uppercase rounded-full bg-[#00AD62] text-white py-4 px-8 text-md transition hover:bg-[#00A062] drop-shadow-[0px_4px_10px_#009D6260] translate-x-10"
+            >Čo je aba?</a
+          >
+        </div>
+
+        <div class="my-20"></div>
+
+        <div class="flex gap-10 justify-between flex-wrap-reverse">
+          <div class="flex-1 -z-10 max-w-2xl relative aspect-[5/3] basis-60">
+            <div
+              class="absolute z-30 -top-3 -left-3 border-white border-4 w-full h-full"
+            ></div>
+            <div class="absolute z-10 -top-5 -left-5 w-full h-full">
+              <img
+                class="w-full h-full object-contain scale-125"
+                src="./assets/particles/rectangle_bg.svg"
+                alt="BG"
+              />
+            </div>
+            <div
+              class="absolute z-0 top-5 -left-5 w-full h-full bg-emerald-100"
+            ></div>
+            <img
+              class="relative z-20 w-full h-full object-contain"
+              src="./assets/images/IMG_9957.jpg"
+              alt=""
+            />
+          </div>
+          <div class="flex-1 max-w-2xl basis-60">
+            <h1 class="font-sans text-6xl text-slate-800">O aba centre</h1>
+            <span class="my-4 inline-block max-w-md">
+              Správanie detí je potrebné určitým spôsobom meniť. Aby upustili od
+              problémových prejavov, od nefunkčného, nebezpečného alebo rušivého
+              správania - aby sa namiesto toho učili želanému správaniu....
+            </span>
+            <div>
+              <img
+                class="max-w-[300px] w-1/6 min-w-[120px] absolute right-0 -translate-y-1/2"
+                src="./assets/particles/line2.svg"
+                alt="Stroke"
+              />
+              <a
+                href="./aba_centrum.html"
+                class="inline-block uppercase rounded-full bg-[#00AD62] text-white py-4 px-8 text-md transition hover:bg-[#00A062] drop-shadow-[0px_4px_10px_#009D6260]"
+                >čítať viac...</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="md:my-20 my-10"></div>
+
+        <div
+          class="my-20 flex gap-10 justify-evenly relative md:flex-nowrap flex-wrap"
+        >
+          <div
+            class="relative flex-1 bg-slate-100 aspect-square max-w-xs border-4 border-slate-200 shadow-lg p-3 basis-60"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/images/1.png"
+              alt=""
+            />
+            <span class="text-sm block text-right">Alexko</span>
+          </div>
+          <div
+            class="relative flex-1 bg-slate-100 aspect-square max-w-xs md:-translate-y-20 md:translate-x-0 translate-y-0 translate-x-0 border-4 border-slate-200 shadow-lg p-3 basis-60"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/images/2.png"
+              alt=""
+            />
+            <span class="text-sm block text-right">Ninka</span>
+          </div>
+          <div
+            class="min-w relative flex-1 bg-slate-100 aspect-square max-w-xs md:-translate-y-10 md:translate-x-0 translate-y-0 -translate-x-0 border-4 border-slate-200 shadow-lg p-3 basis-60"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="./assets/images/3.png"
+              alt=""
+            />
+            <span class="text-sm block text-right"
+              >Jakubko, Alex, Lenka, Kevin</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="md:px-20 px-6 py-10">
+      <div class="container mx-auto flex flex-col items-center gap-2">
+        <ul class="flex gap-5 border-b-black border-b-2 pb-2 px-2 text-sm">
+          <li>
+            <a class="hover:text-slate-600" href="./index.html">Domov</a>
+          </li>
+          <li>
+            <a class="hover:text-slate-600" href="./o_aba.html">O ABA</a>
+          </li>
+          <li>
+            <a class="hover:text-slate-600" href="./aba_centrum.html"
+              >ABA Centrum</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-slate-600" href="./dakujeme.html">Ďakujeme</a>
+          </li>
+        </ul>
+        <div>
+          <p class="text-lg text-center">ABA CENTRUM © 2023</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./src/app.js"></script>
+</html>
